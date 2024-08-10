@@ -3,7 +3,7 @@ import axios from "axios";
 async function generateAnswers(question) {
     try {
         const response = await axios({
-            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${import.meta.env.VITE_API}`,
+            url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDe1lLeLWWNokVjtWAJQeyqHujaQsFDXAU`,
             method: "post",
             data: {
                 contents: [
