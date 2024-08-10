@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(3,0,21);
+  color: white;
+  font-family: 'poppins',sans-serif;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+}
+.sideBar{
+  flex: 3;
+  border-right: 1px solid rgb(100, 100, 100)  ;
+}
+.main{  
+  flex: 9;
+}
+.brand{
+  font-size: 2rem;
+}
+.upperSide{
+  padding: 2.5rem;
+  height: 70%;
+  border-bottom: 1px solid rgb(100, 100, 100)  
+}
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.midBtn{
+  font-size:medium ;
+  background-color: #5a4bff;
+  height: 60px;
+  width: 250px;
+  border: none;
+  color: white;
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+.upperSideBottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.query{
+  background: transparent;
+  color: rgba(222, 222, 222, 1);
+  height: 60px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border:1px solid white;
+  display: flex;
+  align-items: center;
+  border-radius:0.5rem;
+}
+.lowerSide{
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.listItems{
+  font-size: 15px;
+  display: flex;
+  align-items: center ;
+}
+.main{
+  min-height: calc(100vh -14rem);
+  margin: 6rem 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.chats {
+  width: 100%;
+  max-width: 70rem;
+  height: 70vh;
+  overflow-y: scroll; /* to make it scrollable */
+  scroll-behavior: smooth;
+  scrollbar-color: rgba(0, 0, 0) #1756a9 ;
+   
+}
+
+.chat{
+  padding: 2px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+.bot{
+  background-color: rgba(28,30,59,1);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chatFooter {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  p{
+    margin: 2rem 0;
+  }
+}
+
+.inp {
+  padding: 0.5rem;
+  background-color: rgba(28,30,58,1);
+  width: 68rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+    
+}
+
+.inp > input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  color:white;
+  outline: none;
+}
+
+.inp > .send,.mic {
+  background: transparent;
+  border: none;
+  margin-right: 0.5rem; /* Add some space between the input and the button */
+  color: white;
+}
