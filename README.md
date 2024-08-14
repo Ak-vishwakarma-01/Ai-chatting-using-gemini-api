@@ -1,8 +1,33 @@
-# React + Vite
+# ChatME - AI Chatting Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **ChatME**, an AI chatting application powered by the Gemini API. This project is built using React with Vite and offers a sleek, user-friendly interface for interacting with an AI chatbot.
 
-Currently, two official plugins are available:
+[**Live Demo**](https://ai-chatting-using-gemini-api.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Code Overview](#code-overview)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Real-time AI Chat**: Chat with the AI in real-time, with instant responses powered by the Gemini API.
+- **Interactive UI**: User-friendly interface with icons and buttons for smooth interaction.
+- **Predefined Queries**: Quick access to common questions like "What is Programming?" and "How to use API?".
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Vite Integration**: Fast Refresh and optimized build using Vite.
+
+## Installation
+
+To get a local copy of this project up and running, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/chatme.git
+   cd chatme
