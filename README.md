@@ -29,5 +29,5 @@ To get a local copy of this project up and running, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/chatme.git
+   git clone https://github.com/Ak-vishwakarma-01/Ai-chatting-using-gemini-api
    cd chatme
